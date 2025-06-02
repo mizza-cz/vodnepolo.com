@@ -1219,7 +1219,6 @@
 
              <nav>
                 <div class="nav nav-tabs">
-                    <a class="nav-item nav-link blue2" href="https://mizza-cz.github.io/vodnepolo.com/soutez-prehled">Přehled</a>
                     <a class="nav-item nav-link blue2 active" href="https://mizza-cz.github.io/vodnepolo.com/soutez-zapasy">Zápasy</a>
                     <a class="nav-item nav-link blue2" href="https://mizza-cz.github.io/vodnepolo.com/soutez-tabulky">Tabulky</a>
                     <a class="nav-item nav-link blue2" href="https://mizza-cz.github.io/vodnepolo.com/soutez-stats">Statistiky</a>
@@ -1231,77 +1230,52 @@
         <div class="whole-in">
             <div class="row">
 
-                <div class="col-12 filter text-center text-xl-left">
+               <div class="col-12 filter text-center text-xl-left">
+                    <form data-ajax="false" action="" method="get">
                     <div class="form-group">
-                        <label for="faze">Fáze sezony</label>
-                        <select class="form-control" id="faze">
-                            <option>Základní část</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
+                        <label for="p">Fáze sezony</label>
+                        <select class="form-control" id="p" name="p">
+                        <option value="0">Všechny</option>
+                        <option value="140">Skupina "A"</option>
+                        <option value="141">Skupina "B"</option>
+                        <option value="142">O 5. místo</option>
+                        <option value="143">O 3. místo</option>
+                        <option value="144">Finále</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="tym">Konkrétní tým</label>
-                        <select class="form-control" id="tym">
-                            <option>Všechny týmy</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
+                        <label for="s">Stav zápasu</label>
+                        <select class="form-control" id="s" name="s">
+                        <option value="0">Všechny zápasy</option>
+                        <option value="1">Odehrané zápasy</option>
+                        <option value="2">Budoucí zápasy</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="typ">Typy zápasů</label>
-                        <select class="form-control" id="typ">
-                            <option>Odehrané i budoucí</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
+                        <label for="t">Konkrétní tým</label>
+                        <select class="form-control" id="t" name="t">
+                        <option value="0">Všechny</option>
+                        <option value="808">SK Slavia Praha</option>
+                        <option value="805">KVP Přerov</option>
+                        <option value="809">KPS Opava</option>
+                        <option value="810">Asten Johnson Fezko Strakonice</option>
+                        <option value="806">UKVP Stepp Praha</option>
+                        <option value="807">KPSP Kometa Brno</option>
                         </select>
                     </div>
-                    <a class="btn btn-primary mb-2 mb-xl-0" href="#">Všechny zápasy</a>
 
-                </div>
-
-
-                <div class="col-12 rounds text-center text-xl-left">
-                    <div class="form-group">
-                        <label>kola</label>
-                        <nav>
-                            <div class="nav nav-tabs">
-                                <a class="nav-item nav-link blue2 active" href="#nav-first">1</a>
-                                <a class="nav-item nav-link blue2" href="#nav-second">2</a>
-                                <a class="nav-item nav-link blue2" href="#nav-third">3</a>
-                                <a class="nav-item nav-link blue2" href="#nav-third">4</a>
-                                <a class="nav-item nav-link blue2" href="#nav-third">5</a>
-                                <a class="nav-item nav-link blue2" href="#nav-second">2</a>
-                                <a class="nav-item nav-link blue2" href="#nav-third">3</a>
-                                <a class="nav-item nav-link blue2" href="#nav-third">4</a>
-                                <a class="nav-item nav-link blue2" href="#nav-third">5</a>
-                                <a class="nav-item nav-link blue2" href="#nav-second">2</a>
-                                <a class="nav-item nav-link blue2" href="#nav-third">3</a>
-                                <a class="nav-item nav-link blue2" href="#nav-third">4</a>
-                                <a class="nav-item nav-link blue2" href="#nav-third">5</a>
-                                <a class="nav-item nav-link blue2" href="#nav-second">2</a>
-                                <a class="nav-item nav-link blue2" href="#nav-third">3</a>
-                                <a class="nav-item nav-link blue2" href="#nav-third">4</a>
-                                <a class="nav-item nav-link blue2" href="#nav-third">5</a>
-                                <a class="nav-item nav-link blue2" href="#nav-second">2</a>
-                                <a class="nav-item nav-link blue2" href="#nav-third">3</a>
-                                <a class="nav-item nav-link blue2" href="#nav-third">4</a>
-                                <a class="nav-item nav-link blue2" href="#nav-third">5</a>
-                            </div>
-                        </nav>
-                    </div>
-
+                    <input
+                        data-ajax="false"
+                        type="submit"
+                        class="btn btn-primary mb-2 mb-xl-0"
+                        value="Filtrovat"
+                    />
+                    </form>
                 </div>
 
 
                 <div class="col-12">
-                    <h3 class="title blue d-inline-block mb-3">1. kolo</h3>
+                    
 
                     <div class="row">
 
@@ -1686,8 +1660,8 @@
 
     <div class="container footer">
         <div class="row px-0 px-md-4">
-            <div class="col-12 text-center">
-                © 2016 - 2020 eSports, s.r.o. - <a href="http://esportsmedia.cz/" target="_blank">www.esports.cz</a>
+             <div class="col-12 text-center">
+               © 2025 eSports, s.r.o. - <a href="http://esportsmedia.cz/" target="_blank">www.esports.cz</a>
             </div>
         </div>
     </div>
