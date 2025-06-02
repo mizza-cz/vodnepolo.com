@@ -16508,3 +16508,31 @@ label {
     padding: 8px 0;
   }
 }
+
+.tag-wrap {
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+.tag-wrap .tag {
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  background-color: #1670ad;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  padding: 5px 8px;
+  margin-right: 4px;
+  margin-top: 2px;
+  display: inline-block;
+}
+.tag-wrap .tag a {
+  color: #ffffff !important;
+}
+
+table .highlight {
+  background-color: rgba(231, 237, 245, 0.75);
+}
