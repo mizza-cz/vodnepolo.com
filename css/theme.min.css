@@ -15435,6 +15435,7 @@ label {
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
+  color: #000000 !important;
 }
 .news .date.blue {
   color: #5a87c0;
@@ -15767,7 +15768,9 @@ label {
     padding-bottom: 0px;
   }
 }
-
+.matches-section .match {
+  height: 100%;
+}
 .match {
   text-decoration: none;
   color: #000;
@@ -15877,10 +15880,10 @@ label {
   width: 30px;
   height: 30px;
 }
-.stats a{
+.stats a {
   color: #000;
 }
-.stats .btn{
+.stats .btn {
   color: #fff;
 }
 .stats .logo a {
@@ -16088,7 +16091,9 @@ label {
 .player-head .info .age {
   min-width: 55px;
 }
-
+.player-content table td a {
+  color: #000;
+}
 .club-head {
   border-bottom: 1px solid rgba(90, 135, 192, 0.2);
 }
