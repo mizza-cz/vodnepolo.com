@@ -15877,6 +15877,12 @@ label {
   width: 30px;
   height: 30px;
 }
+.stats a{
+  color: #000;
+}
+.stats .btn{
+  color: #fff;
+}
 .stats .logo a {
   font-size: 14px;
   text-decoration: underline;
