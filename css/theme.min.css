@@ -2486,8 +2486,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #002468;
-  border-color: #002468;
+  background-color: #1670ad;
+  border-color: #1670ad;
 }
 .btn-primary:hover {
   color: #fff;
@@ -15400,7 +15400,7 @@ label {
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.33;
+  line-height: 1.5;
   letter-spacing: normal;
   color: #ffffff;
   text-transform: uppercase;
@@ -15518,7 +15518,7 @@ label {
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.33;
+  line-height: 1.5;
   letter-spacing: normal;
   color: #ffffff;
   text-transform: uppercase;
@@ -15889,7 +15889,7 @@ label {
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: #002468;
+  color: #000;
   font-family: 'Rajdhani', sans-serif;
 }
 .stats .big img {
