@@ -16557,3 +16557,7 @@ table .highlight {
 .event .cup div {
   max-width: 110px;
 }
+
+.header .nav-link {
+  font-size: 18px;
+}
