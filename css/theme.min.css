@@ -15447,6 +15447,7 @@ label {
 .side-news {
   padding-bottom: 26px;
   border-bottom: 1px solid rgba(90, 135, 192, 0.2);
+  color: #000 !important;
 }
 .side-news .date {
   margin-top: 0px;
@@ -15627,7 +15628,7 @@ label {
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: #002468;
+  color: #1670ad;
   margin-bottom: 25px;
 }
 
