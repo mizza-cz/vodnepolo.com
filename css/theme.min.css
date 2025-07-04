@@ -15535,6 +15535,9 @@ label {
 .article .thumb .tag.pink {
   background-color: #d90435;
 }
+.article .thumb .tag.yellow{
+  background-color: #f5c518;
+}
 .article .date {
   margin-top: 16px;
   font-size: 15px;
