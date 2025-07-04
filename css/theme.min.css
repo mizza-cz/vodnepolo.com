@@ -15412,10 +15412,25 @@ label {
 .news .image .tag.blue {
   background-color: #1670ad;
 }
+.news .image .tag.green {
+  background-color: #059a72;
+}
 .news .image .tag.pink {
   background-color: #d90435;
 }
 .news .image .tag.yellow {
+  background-color: #f5c518;
+}
+.tag-wrap .tag.blue {
+  background-color: #1670ad;
+}
+.tag-wrap .tag.green {
+  background-color: #059a72;
+}
+.tag-wrap .tag.pink {
+  background-color: #d90435;
+}
+.tag-wrap .tag.yellow {
   background-color: #f5c518;
 }
 .news h2 {
@@ -15535,7 +15550,10 @@ label {
 .article .thumb .tag.pink {
   background-color: #d90435;
 }
-.article .thumb .tag.yellow{
+.article .thumb .tag.green {
+  background-color: #059a72;
+}
+.article .thumb .tag.yellow {
   background-color: #f5c518;
 }
 .article .date {
