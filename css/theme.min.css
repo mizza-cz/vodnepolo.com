@@ -16629,6 +16629,11 @@ table .highlight {
   height: 48px;
   object-fit: contain;
 }
+@media (max-width: 1200px) {
+  .matchCard-bottom {
+    display: block !important;
+  }
+}
 @media (max-width: 992px) {
   .matchCard-item {
     font-size: 16px;
@@ -16650,4 +16655,17 @@ table .highlight {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.matchCard-arrow {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.matchCard-links {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 24px;
 }
