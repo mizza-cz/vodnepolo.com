@@ -1964,9 +1964,7 @@ table .thead-light th {
   background-clip: padding-box;
   border: 0px solid #ced4da;
   border-radius: 0.25rem;
-  transition:
-    border-color 0.15s ease-in-out,
-    box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-control {
@@ -2177,8 +2175,7 @@ textarea.form-control.is-valid {
 .custom-select.is-valid {
   border-color: #28a745;
   padding-right: calc((1em + 0.75rem) * 3 / 4 + 1.75rem);
-  background:
-    url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e")
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e")
       no-repeat right 0.75rem center/8px 10px,
     url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e")
       #fff no-repeat center right 1.75rem / calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
@@ -2311,8 +2308,7 @@ textarea.form-control.is-invalid {
 .custom-select.is-invalid {
   border-color: #dc3545;
   padding-right: calc((1em + 0.75rem) * 3 / 4 + 1.75rem);
-  background:
-    url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e")
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e")
       no-repeat right 0.75rem center/8px 10px,
     url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23dc3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E")
       #fff no-repeat center right 1.75rem / calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
@@ -2461,11 +2457,8 @@ textarea.form-control.is-invalid {
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
-  transition:
-    color 0.15s ease-in-out,
-    background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out,
-    box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
@@ -3718,11 +3711,8 @@ input[type='button'].btn-block {
   height: calc(1rem - 0px);
   background-color: #adb5bd;
   border-radius: 0.5rem;
-  transition:
-    transform 0.15s ease-in-out,
-    background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out,
-    box-shadow 0.15s ease-in-out;
+  transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .custom-switch .custom-control-label::after {
@@ -3866,19 +3856,13 @@ input[type='button'].btn-block {
   outline: none;
 }
 .custom-range:focus::-webkit-slider-thumb {
-  box-shadow:
-    0 0 0 1px #f1f6fc,
-    0 0 0 0.2rem rgba(0, 96, 169, 0.25);
+  box-shadow: 0 0 0 1px #f1f6fc, 0 0 0 0.2rem rgba(0, 96, 169, 0.25);
 }
 .custom-range:focus::-moz-range-thumb {
-  box-shadow:
-    0 0 0 1px #f1f6fc,
-    0 0 0 0.2rem rgba(0, 96, 169, 0.25);
+  box-shadow: 0 0 0 1px #f1f6fc, 0 0 0 0.2rem rgba(0, 96, 169, 0.25);
 }
 .custom-range:focus::-ms-thumb {
-  box-shadow:
-    0 0 0 1px #f1f6fc,
-    0 0 0 0.2rem rgba(0, 96, 169, 0.25);
+  box-shadow: 0 0 0 1px #f1f6fc, 0 0 0 0.2rem rgba(0, 96, 169, 0.25);
 }
 .custom-range::-moz-focus-outer {
   border: 0;
@@ -3890,9 +3874,7 @@ input[type='button'].btn-block {
   background-color: #002468;
   border: 0;
   border-radius: 1rem;
-  transition:
-    background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out,
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
     box-shadow 0.15s ease-in-out;
   appearance: none;
 }
@@ -3919,9 +3901,7 @@ input[type='button'].btn-block {
   background-color: #002468;
   border: 0;
   border-radius: 1rem;
-  transition:
-    background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out,
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
     box-shadow 0.15s ease-in-out;
   appearance: none;
 }
@@ -3951,9 +3931,7 @@ input[type='button'].btn-block {
   background-color: #002468;
   border: 0;
   border-radius: 1rem;
-  transition:
-    background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out,
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
     box-shadow 0.15s ease-in-out;
   appearance: none;
 }
@@ -4002,9 +3980,7 @@ input[type='button'].btn-block {
 .custom-control-label::before,
 .custom-file-label,
 .custom-select {
-  transition:
-    background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out,
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
     box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -4762,11 +4738,8 @@ input[type='button'].btn-block {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
-  transition:
-    color 0.15s ease-in-out,
-    background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out,
-    box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .badge {
@@ -10104,8 +10077,7 @@ a.text-dark:focus {
 @font-face {
   font-family: 'FontAwesome';
   src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
-  src:
-    url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
     url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
     url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),
     url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
@@ -13246,10 +13218,8 @@ a.text-dark:focus {
 @font-face {
   font-family: 'slick';
   src: url('../fonts/slick.eot');
-  src:
-    url('../fonts/slick.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/slick.woff') format('woff'),
-    url('../fonts/slick.ttf') format('truetype'),
+  src: url('../fonts/slick.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/slick.woff') format('woff'), url('../fonts/slick.ttf') format('truetype'),
     url('../fonts/slick.svg#slick') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -13400,10 +13370,8 @@ a.text-dark:focus {
 @font-face {
   font-family: lg;
   src: url(../fonts/lg.eot?n1z373);
-  src:
-    url(../fonts/lg.eot?#iefixn1z373) format('embedded-opentype'),
-    url(../fonts/lg.woff?n1z373) format('woff'),
-    url(../fonts/lg.ttf?n1z373) format('truetype'),
+  src: url(../fonts/lg.eot?#iefixn1z373) format('embedded-opentype'),
+    url(../fonts/lg.woff?n1z373) format('woff'), url(../fonts/lg.ttf?n1z373) format('truetype'),
     url(../fonts/lg.svg?n1z373#lg) format('svg');
   font-weight: 400;
   font-style: normal;
@@ -13628,22 +13596,14 @@ a.text-dark:focus {
 .lg-prev,
 .lg-toolbar {
   opacity: 1;
-  -webkit-transition:
-    -webkit-transform 0.35s cubic-bezier(0, 0, 0.25, 1) 0s,
-    opacity 0.35s cubic-bezier(0, 0, 0.25, 1) 0s,
-    color 0.2s linear;
-  -moz-transition:
-    -moz-transform 0.35s cubic-bezier(0, 0, 0.25, 1) 0s,
-    opacity 0.35s cubic-bezier(0, 0, 0.25, 1) 0s,
-    color 0.2s linear;
-  -o-transition:
-    -o-transform 0.35s cubic-bezier(0, 0, 0.25, 1) 0s,
-    opacity 0.35s cubic-bezier(0, 0, 0.25, 1) 0s,
-    color 0.2s linear;
-  transition:
-    transform 0.35s cubic-bezier(0, 0, 0.25, 1) 0s,
-    opacity 0.35s cubic-bezier(0, 0, 0.25, 1) 0s,
-    color 0.2s linear;
+  -webkit-transition: -webkit-transform 0.35s cubic-bezier(0, 0, 0.25, 1) 0s,
+    opacity 0.35s cubic-bezier(0, 0, 0.25, 1) 0s, color 0.2s linear;
+  -moz-transition: -moz-transform 0.35s cubic-bezier(0, 0, 0.25, 1) 0s,
+    opacity 0.35s cubic-bezier(0, 0, 0.25, 1) 0s, color 0.2s linear;
+  -o-transition: -o-transform 0.35s cubic-bezier(0, 0, 0.25, 1) 0s,
+    opacity 0.35s cubic-bezier(0, 0, 0.25, 1) 0s, color 0.2s linear;
+  transition: transform 0.35s cubic-bezier(0, 0, 0.25, 1) 0s,
+    opacity 0.35s cubic-bezier(0, 0, 0.25, 1) 0s, color 0.2s linear;
 }
 
 .lg-hide-items .lg-prev {
@@ -13668,17 +13628,13 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-object {
   -webkit-transform: scale3d(0.5, 0.5, 0.5);
   transform: scale3d(0.5, 0.5, 0.5);
   opacity: 0;
-  -webkit-transition:
-    -webkit-transform 250ms cubic-bezier(0, 0, 0.25, 1) 0s,
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0, 0, 0.25, 1) 0s,
     opacity 250ms cubic-bezier(0, 0, 0.25, 1) !important;
-  -moz-transition:
-    -moz-transform 250ms cubic-bezier(0, 0, 0.25, 1) 0s,
+  -moz-transition: -moz-transform 250ms cubic-bezier(0, 0, 0.25, 1) 0s,
     opacity 250ms cubic-bezier(0, 0, 0.25, 1) !important;
-  -o-transition:
-    -o-transform 250ms cubic-bezier(0, 0, 0.25, 1) 0s,
+  -o-transition: -o-transform 250ms cubic-bezier(0, 0, 0.25, 1) 0s,
     opacity 250ms cubic-bezier(0, 0, 0.25, 1) !important;
-  transition:
-    transform 250ms cubic-bezier(0, 0, 0.25, 1) 0s,
+  transition: transform 250ms cubic-bezier(0, 0, 0.25, 1) 0s,
     opacity 250ms cubic-bezier(0, 0, 0.25, 1) !important;
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
@@ -13956,18 +13912,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .lg-outer.lg-use-left-for-zoom .lg-item.lg-complete.lg-zoomable .lg-img-wrap {
-  -webkit-transition:
-    left 0.3s cubic-bezier(0, 0, 0.25, 1) 0s,
+  -webkit-transition: left 0.3s cubic-bezier(0, 0, 0.25, 1) 0s,
     top 0.3s cubic-bezier(0, 0, 0.25, 1) 0s;
-  -moz-transition:
-    left 0.3s cubic-bezier(0, 0, 0.25, 1) 0s,
-    top 0.3s cubic-bezier(0, 0, 0.25, 1) 0s;
-  -o-transition:
-    left 0.3s cubic-bezier(0, 0, 0.25, 1) 0s,
-    top 0.3s cubic-bezier(0, 0, 0.25, 1) 0s;
-  transition:
-    left 0.3s cubic-bezier(0, 0, 0.25, 1) 0s,
-    top 0.3s cubic-bezier(0, 0, 0.25, 1) 0s;
+  -moz-transition: left 0.3s cubic-bezier(0, 0, 0.25, 1) 0s, top 0.3s cubic-bezier(0, 0, 0.25, 1) 0s;
+  -o-transition: left 0.3s cubic-bezier(0, 0, 0.25, 1) 0s, top 0.3s cubic-bezier(0, 0, 0.25, 1) 0s;
+  transition: left 0.3s cubic-bezier(0, 0, 0.25, 1) 0s, top 0.3s cubic-bezier(0, 0, 0.25, 1) 0s;
 }
 
 .lg-outer .lg-item.lg-complete.lg-zoomable .lg-img-wrap {
@@ -13981,18 +13930,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .lg-outer .lg-item.lg-complete.lg-zoomable .lg-image {
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
-  -webkit-transition:
-    -webkit-transform 0.3s cubic-bezier(0, 0, 0.25, 1) 0s,
-    opacity 0.15s !important;
-  -moz-transition:
-    -moz-transform 0.3s cubic-bezier(0, 0, 0.25, 1) 0s,
-    opacity 0.15s !important;
-  -o-transition:
-    -o-transform 0.3s cubic-bezier(0, 0, 0.25, 1) 0s,
-    opacity 0.15s !important;
-  transition:
-    transform 0.3s cubic-bezier(0, 0, 0.25, 1) 0s,
-    opacity 0.15s !important;
+  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.15s !important;
+  -moz-transition: -moz-transform 0.3s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.15s !important;
+  -o-transition: -o-transform 0.3s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.15s !important;
+  transition: transform 0.3s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.15s !important;
   -webkit-transform-origin: 0 0;
   -moz-transform-origin: 0 0;
   -ms-transform-origin: 0 0;
@@ -14074,18 +14015,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   position: absolute;
   width: 120px;
   border-radius: 3px;
-  -webkit-transition:
-    opacity 0.15s ease 0s,
-    -webkit-transform 0.15s ease 0s;
-  -moz-transition:
-    opacity 0.15s ease 0s,
-    -moz-transform 0.15s ease 0s;
-  -o-transition:
-    opacity 0.15s ease 0s,
-    -o-transform 0.15s ease 0s;
-  transition:
-    opacity 0.15s ease 0s,
-    transform 0.15s ease 0s;
+  -webkit-transition: opacity 0.15s ease 0s, -webkit-transform 0.15s ease 0s;
+  -moz-transition: opacity 0.15s ease 0s, -moz-transform 0.15s ease 0s;
+  -o-transition: opacity 0.15s ease 0s, -o-transform 0.15s ease 0s;
+  transition: opacity 0.15s ease 0s, transform 0.15s ease 0s;
   -webkit-transform: translate3d(0, 5px, 0);
   transform: translate3d(0, 5px, 0);
 }
@@ -14145,15 +14078,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   z-index: 1081;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition:
-    visibility 0s linear 0.18s,
-    opacity 0.18s linear 0s;
-  -o-transition:
-    visibility 0s linear 0.18s,
-    opacity 0.18s linear 0s;
-  transition:
-    visibility 0s linear 0.18s,
-    opacity 0.18s linear 0s;
+  -webkit-transition: visibility 0s linear 0.18s, opacity 0.18s linear 0s;
+  -o-transition: visibility 0s linear 0.18s, opacity 0.18s linear 0s;
+  transition: visibility 0s linear 0.18s, opacity 0.18s linear 0s;
 }
 
 .lg-outer.lg-dropdown-active #lg-dropdown-overlay,
@@ -14191,22 +14118,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   -ms-transform: translate3d(0, 5px, 0);
   -webkit-transform: translate3d(0, 5px, 0);
   transform: translate3d(0, 5px, 0);
-  -webkit-transition:
-    -webkit-transform 0.18s linear 0s,
-    visibility 0s linear 0.5s,
+  -webkit-transition: -webkit-transform 0.18s linear 0s, visibility 0s linear 0.5s,
     opacity 0.18s linear 0s;
-  -moz-transition:
-    -moz-transform 0.18s linear 0s,
-    visibility 0s linear 0.5s,
+  -moz-transition: -moz-transform 0.18s linear 0s, visibility 0s linear 0.5s,
     opacity 0.18s linear 0s;
-  -o-transition:
-    -o-transform 0.18s linear 0s,
-    visibility 0s linear 0.5s,
-    opacity 0.18s linear 0s;
-  transition:
-    transform 0.18s linear 0s,
-    visibility 0s linear 0.5s,
-    opacity 0.18s linear 0s;
+  -o-transition: -o-transform 0.18s linear 0s, visibility 0s linear 0.5s, opacity 0.18s linear 0s;
+  transition: transform 0.18s linear 0s, visibility 0s linear 0.5s, opacity 0.18s linear 0s;
 }
 
 .lg-outer .lg-dropdown:after {
@@ -14537,18 +14454,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-current,
 .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-next-slide,
 .lg-css3.lg-slide.lg-use-css3 .lg-item.lg-prev-slide {
-  -webkit-transition:
-    -webkit-transform 1s cubic-bezier(0, 0, 0.25, 1) 0s,
-    opacity 0.1s ease 0s;
-  -moz-transition:
-    -moz-transform 1s cubic-bezier(0, 0, 0.25, 1) 0s,
-    opacity 0.1s ease 0s;
-  -o-transition:
-    -o-transform 1s cubic-bezier(0, 0, 0.25, 1) 0s,
-    opacity 0.1s ease 0s;
-  transition:
-    transform 1s cubic-bezier(0, 0, 0.25, 1) 0s,
-    opacity 0.1s ease 0s;
+  -webkit-transition: -webkit-transform 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s;
+  -moz-transition: -moz-transform 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s;
+  -o-transition: -o-transform 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s;
+  transition: transform 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s;
 }
 
 .lg-css3.lg-slide.lg-use-left .lg-item {
@@ -14573,18 +14482,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .lg-css3.lg-slide.lg-use-left .lg-item.lg-current,
 .lg-css3.lg-slide.lg-use-left .lg-item.lg-next-slide,
 .lg-css3.lg-slide.lg-use-left .lg-item.lg-prev-slide {
-  -webkit-transition:
-    left 1s cubic-bezier(0, 0, 0.25, 1) 0s,
-    opacity 0.1s ease 0s;
-  -moz-transition:
-    left 1s cubic-bezier(0, 0, 0.25, 1) 0s,
-    opacity 0.1s ease 0s;
-  -o-transition:
-    left 1s cubic-bezier(0, 0, 0.25, 1) 0s,
-    opacity 0.1s ease 0s;
-  transition:
-    left 1s cubic-bezier(0, 0, 0.25, 1) 0s,
-    opacity 0.1s ease 0s;
+  -webkit-transition: left 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s;
+  -moz-transition: left 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s;
+  -o-transition: left 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s;
+  transition: left 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s;
 }
 
 .lg-wrap > ul {
@@ -15908,9 +15809,7 @@ label {
 }
 .match:hover {
   text-decoration: none;
-  box-shadow:
-    0 7px 14px rgba(0, 0, 0, 0.1),
-    0 5px 5px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.1), 0 5px 5px rgba(0, 0, 0, 0.07);
 }
 @media (min-width: 1200px) and (max-width: 1353px) {
   .match {
@@ -16174,9 +16073,7 @@ label {
 }
 .team:hover {
   text-decoration: none;
-  box-shadow:
-    0 7px 14px rgba(0, 0, 0, 0.1),
-    0 5px 5px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.1), 0 5px 5px rgba(0, 0, 0, 0.07);
 }
 @media (min-width: 1200px) and (max-width: 1353px) {
   .team {
@@ -16685,4 +16582,72 @@ table .highlight {
 
 .header .nav-link {
   font-size: 18px;
+}
+
+.matchCard {
+  text-decoration: none !important;
+  color: #000;
+  position: relative;
+
+  font-size: 14px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px 0 rgba(202, 208, 225, 0.5);
+  border: solid 1px #bdc7d5;
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 24px;
+  transition: all 0.25s;
+}
+
+.matchCard:hover {
+  border-color: rgba(22, 112, 173, 0.75);
+}
+.matchCard-score {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.83;
+  letter-spacing: normal;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.matchCard-item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.matchCard-item img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+@media (max-width: 992px) {
+  .matchCard-item {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .matchCard-team {
+    display: none;
+  }
+}
+
+.matchCard-score__icon {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: -28px;
+}
+.matchCard-score__icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
