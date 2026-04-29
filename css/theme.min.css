@@ -16497,6 +16497,9 @@ label {
   display: none;
 }
 @media (max-width: 992px) {
+  .title {
+    font-size: 19px;
+  }
   .header__logo {
     height: 50px;
     width: 150px;
@@ -16588,14 +16591,12 @@ table .highlight {
   text-decoration: none !important;
   color: #000;
   position: relative;
-
   font-size: 14px;
   border-radius: 6px;
   box-shadow: 0 2px 4px 0 rgba(202, 208, 225, 0.5);
   border: solid 1px #bdc7d5;
   padding: 20px;
   background-color: #fff;
-  margin-bottom: 24px;
   transition: all 0.25s;
 }
 
@@ -16668,4 +16669,11 @@ table .highlight {
   gap: 8px;
   flex-wrap: wrap;
   margin-top: 24px;
+}
+
+.gap-4 {
+  gap: 16px;
+}
+.gap-5 {
+  gap: 20px;
 }
