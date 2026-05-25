@@ -16636,13 +16636,22 @@ table .highlight {
   }
 }
 @media (max-width: 992px) {
+  .col-lg-5.col-4:first-child .matchCard-item {
+    flex-direction: column-reverse !important;
+  }
+
   .matchCard-item {
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    text-align: center !important;
+    gap: 16px;
   }
 }
 @media (max-width: 768px) {
   .matchCard-team {
-    display: none;
+    /* display: none; */
   }
 }
 
